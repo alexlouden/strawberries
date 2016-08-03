@@ -44,7 +44,7 @@ def circle_contour(image, contour):
 
 def process(image):
 
-    image = cv2.resize(image, None, fx=1/3, fy=1/3)
+    image = cv2.resize(image, None, fx=1/2, fy=1/2)
 
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
